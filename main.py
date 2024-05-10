@@ -11,6 +11,8 @@ files = os.listdir(json_dir)
 files.sort()
 
 sum_time_to_resolve = 0
+time_to_resolve_ls = []
+
 # json ファイルの一覧をループ
 for file in files:
     # json ファイルのパスを作成
@@ -24,9 +26,13 @@ for file in files:
     escalation_policy_name = data.get("escalation_policy_name")
     description = data.get("description")
     seconds_to_resolve = data.get("seconds_to_resolve")
+    time_to_resolve_ls.append(seconds_to_resolve)
 
     print(f"{team_name} {escalation_policy_name} {description} {seconds_to_resolve}秒 {seconds_to_resolve / 60}分")
     sum_time_to_resolve = sum_time_to_resolve + seconds_to_resolve
 
 print(f"合計対応時間: {sum_time_to_resolve} 秒 ({sum_time_to_resolve / 60}分)")
 print(f"平均対応時間: {sum_time_to_resolve / len(files)} 秒 ({(sum_time_to_resolve / len(files)) / 60}分)")
+
+print(f"最大対応時間: {max(time_to_resolve_ls)} 秒 ({max(time_to_resolve_ls) / 60}分)")
+print(f"最小対応時間: {min(time_to_resolve_ls)} 秒 ({min(time_to_resolve_ls) / 60}分)")
