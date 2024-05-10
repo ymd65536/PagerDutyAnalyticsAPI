@@ -1,0 +1,63 @@
+{
+    "status": "resolved",
+    "business_hour_interruptions": 0,
+    "reassignment_count": 0,
+    "acknowledgement_count": 3,
+    "service_name": "test-data",
+    "engaged_user_count": 2,
+    "active_user_count": 2,
+    "id": "Q3S521UOI0LBNA",
+    "total_interruptions": null,
+    "assigned_user_ids": [
+      "P5KXR48",
+      "P66ITJW"
+    ],
+    "assigned_user_names": [
+      "api_test_user"
+    ],
+    "escalation_count": 0,
+    "service_id": "PELE485",
+    "priority_order": 65536,
+    "resolved_by_user_id": "P5KXR48",
+    "snoozed_seconds": 0,
+    "manual_escalation_count": 0,
+    "priority_name": "P3",
+    "joined_user_ids": [
+      "P5KXR48",
+      "P66ITJW"
+    ],
+    "incident_number": 6380940,
+    "seconds_to_engage": 365,
+    "joined_user_names": [
+      "api_test_user"
+    ],
+    "seconds_to_resolve": 5551,
+    "seconds_to_mobilize": 384,
+    "escalation_policy_name": "ソイソースセクション",
+    "team_name": "ギョウザインテグレーション事業部",
+    "urgency": "high",
+    "major": true,
+    "priority_id": "PFRLHBW",
+    "escalation_policy_id": "P4QTLO1",
+    "sleep_hour_interruptions": 0,
+    "auto_resolved": false,
+    "total_notifications": 1,
+    "description": "test-incident-1",
+    "off_hour_interruptions": 0,
+    "created_at": "2024-05-08T23:26:51",
+    "resolved_by_user_name": "api_test_user",
+    "timeout_escalation_count": 0,
+    "user_defined_effort_seconds": null,
+    "team_id": "PL22HVP",
+    "resolved_at": "2024-05-09T00:59:22",
+    "acknowledged_user_ids": [
+      "P5KXR48",
+      "P66ITJW"
+    ],
+    "seconds_to_first_ack": 19,
+    "assignment_count": 2,
+    "engaged_seconds": 10699,
+    "acknowledged_user_names": [
+      "api_test_user"
+    ]
+  }
