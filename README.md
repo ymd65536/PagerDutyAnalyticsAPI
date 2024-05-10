@@ -25,4 +25,4 @@ python main.py
 
 以下のような結果が表示されます
 
-![実行結果](./img/result.png)
+![実行結果](./img/Screenshot.png)
